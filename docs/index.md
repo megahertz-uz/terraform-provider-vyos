@@ -17,7 +17,7 @@ terraform {
   required_providers {
     vyos = {
       version = "0.x.x"
-      source  = "foltik/vyos"
+      source  = "megahertz-uz/vyos"
     }
   }
 }

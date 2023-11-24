@@ -1,4 +1,4 @@
-module github.com/foltik/terraform-provider-vyos
+module github.com/megahertz-uz/terraform-provider-vyos
 
 go 1.18
 

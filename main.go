@@ -4,7 +4,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 
-	"github.com/foltik/terraform-provider-vyos/vyos"
+	"github.com/megahertz-uz/terraform-provider-vyos/vyos"
 
 	"flag"
 )
@@ -20,7 +20,7 @@ func main() {
 
 	opts := &plugin.ServeOpts{
 		Debug:        debug,
-		ProviderAddr: "registry.terraform.io/foltik/vyos",
+		ProviderAddr: "registry.terraform.io/megahertz-uz/vyos",
 		ProviderFunc: func() *schema.Provider {
 			return vyos.Provider()
 		},
